@@ -1,0 +1,22 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+canvas
+{
+	position: absolute;
+	background: black;
+	top: 0;
+	left: 0;
+
+	/*This sets the canvas as the background */
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+	
+}
+
