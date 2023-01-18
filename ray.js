@@ -33,7 +33,7 @@ class Ray
         //they are parallel to each other
         if(den == 0)
         {
-            return;
+            return null;
         }
 
         const t = ((x1-x3)*(y3-y4)-(y1-y3)*(x3-x4))/den;
@@ -47,7 +47,7 @@ class Ray
         }
         else
         {
-            return;
+            return null;
         }
 
     }
@@ -91,7 +91,7 @@ class Ray
 
     drawRay(ctx)
     {
-        ctx.lineWidth = .1
+        ctx.lineWidth = .2
         ctx.beginPath();
         ctx.moveTo(this.x1, this.y1);
         ctx.lineTo(this.x2, this.y2);
